@@ -1,0 +1,10 @@
+1)isEmpty() is broken and never updates. isEmpty() returns false 
+on a newly created Linked list with no node, but it should return true.
+
+2)size() starts at 1 on an empty LinkedList and increments/decrements
+normally. The starting value is 1, but should be 0.
+
+3)addBack() only adds the same value for any subsequent value after the
+first node is added via addBack().
+
+4)removeFront() actually removes from the back of the LinkedList.
